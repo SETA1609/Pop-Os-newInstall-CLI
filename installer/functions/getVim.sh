@@ -1,6 +1,6 @@
 #!/bin/bash
 
-log=/installer/logs/Snap.log
+log=/installer/logs/Vim.log
 source checkExit.sh
 
 getNode(){

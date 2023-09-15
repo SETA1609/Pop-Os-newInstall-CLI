@@ -1,6 +1,6 @@
 #!/bin/bash
 
-log=/installer/logs/Snap.log
+log=/installer/logs/Curl.log
 source checkExit.sh
 
 getCurl(){
