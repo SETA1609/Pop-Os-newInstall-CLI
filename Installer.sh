@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source installer/functions/importSources.sh
-getSources
+source ./resources/functions/getMenu.sh
+
 
 startTool

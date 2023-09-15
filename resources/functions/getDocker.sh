@@ -1,8 +1,8 @@
 #!/bin/bash
 
-log=/resources/logs/Docker.log
-errorLog=/resources/errors/Docker.err
-source checkExit.sh
+log=resources/logs/Docker.log
+errorLog=resources/errors/Docker.err
+source ./checkExit.sh
 
 getDocker(){
   sudo apt-get remove docker docker-engine docker.io containerd runc 1>>"$log" 2>>"$errorLog"

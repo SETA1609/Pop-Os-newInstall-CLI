@@ -1,10 +1,10 @@
 #!/bin/bash
 
 releaseFile=/etc/os-release
-log=/resources/logs/updater.log
-errorLog=/resources/logs/updater.err
+log=resources/logs/updater.log
+errorLog=resources/logs/updater.err
 
-source checkExit.sh
+source ./checkExit.sh
 
 getUpdate(){
   if grep -q "Arch" $releaseFile
