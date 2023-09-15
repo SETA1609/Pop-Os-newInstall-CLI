@@ -6,7 +6,7 @@ source /resources/functions/importSources.sh
 getSources
 
 # Define an array of function names
-functions=("getUpdate" "getSnap" "getVim" "getCurl" "getGrub" "getPython" "getJava" "getHaskell" "getNode" "getIntellij" "getDocker")
+functions=("getUpdate" "getSnap" "getVim" "getCurl" "getGrub" "getPython" "getJava" "getHaskell" "getNode" "getIntellij" "getDocker" "getDiscord")
 
 # Function to execute all functions in the array
 executeFunctions() {
