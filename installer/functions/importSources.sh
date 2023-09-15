@@ -1,6 +1,6 @@
 #!/bin/bash
 
-importSources(){
+getSources(){
   srcFiles="installer/functions"
   for file in "$srcFiles"/*.sh;
    do

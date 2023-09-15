@@ -2,7 +2,7 @@
 
 isRunning=true
 source installer/functions/importSources.sh
-importSources
+getSources
 
 
 while [ "$isRunning" ]; do
