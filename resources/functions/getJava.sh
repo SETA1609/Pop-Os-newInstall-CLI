@@ -1,8 +1,7 @@
 #!/bin/bash
 
-log=/installer/logs/Java.log
-errorLog=/installer/errors/Java.err
-
+log=/resources/logs/Java.log
+errorLog=/resources/errors/Java.err
 source checkExit.sh
 
 getJava(){

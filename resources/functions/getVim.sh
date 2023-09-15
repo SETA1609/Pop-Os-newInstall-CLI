@@ -1,11 +1,11 @@
 #!/bin/bash
 
-log=/installer/logs/Nvidea.log
-errorLog=/installer/errors/Nvidea.err
+log=/resources/logs/Vim.log
+errorLog=/resources/errors/Vim.err
 
 source checkExit.sh
 
-patchNvidea(){
+getNode(){
   sudo apt install vim 1>>"$log" 2>>"$errorLog"
   checkExitStatus $errorLog
 }

@@ -1,8 +1,7 @@
 #!/bin/bash
 
-log=/installer/logs/Haskell.log
-errorLog=/installer/errors/Haskell.err
-
+log=/resources/logs/Haskell.log
+errorLog=/resources/errors/Haskell.err
 source checkExit.sh
 
 getHaskell(){

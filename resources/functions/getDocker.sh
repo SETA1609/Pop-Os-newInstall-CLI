@@ -1,8 +1,7 @@
 #!/bin/bash
 
-log=/installer/logs/Docker.log
-errorLog=/installer/errors/Docker.err
-
+log=/resources/logs/Docker.log
+errorLog=/resources/errors/Docker.err
 source checkExit.sh
 
 getDocker(){

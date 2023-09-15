@@ -1,7 +1,7 @@
 #!/bin/bash
 
-log=/installer/logs/Snap.log
-errorLog=/installer/errors/Snap.err
+log=/resources/logs/Snap.log
+errorLog=/resources/errors/Snap.err
 
 
 source checkExit.sh

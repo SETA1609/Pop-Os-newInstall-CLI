@@ -1,8 +1,7 @@
 #!/bin/bash
 
-log=/installer/logs/Intellij.log
-errorLog=/installer/errors/Intellij.err
-
+log=/resources/logs/Intellij.log
+errorLog=/resources/errors/Intellij.err
 source checkExit.sh
 
 getNode(){

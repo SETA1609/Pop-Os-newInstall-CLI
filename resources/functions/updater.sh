@@ -1,7 +1,9 @@
 #!/bin/bash
 
 releaseFile=/etc/os-release
-log=/installer/logs/updater.log
+log=/resources/logs/updater.log
+errorLog=/resources/logs/updater.err
+
 source checkExit.sh
 
 getUpdate(){
@@ -9,25 +11,25 @@ getUpdate(){
   then
   	#if arch
   	sudo pacman -Syu 1>>"$log" 2>>"$errorLog"
-  	checkExitStatus
+  	checkExitStatus $errorLog
   fi
 
   if grep -q "Pop" $releaseFile ||  grep -q "Ubuntu" $releaseFile
   then
   #if Ubuntu or pop
   	sudo apt update	 1>>"$log" 2>>"$errorLog"
-  	checkExitStatus
+  	checkExitStatus $errorLog
     sudo apt dist-upgrade 1>>"$log" 2>>"$errorLog"
-  	checkExitStatus
+  	checkExitStatus $errorLog
   fi
 
   if grep -q "Debian" $releaseFile
   # if Debian
   then
   	sudo apt update	 1>>"$log" 2>>"$errorLog"
-    checkExitStatus
+    checkExitStatus $errorLog
     sudo apt upgrade 1>>"$log" 2>>"$errorLog"
-    checkExitStatus
+    checkExitStatus $errorLog
   fi
 }
 

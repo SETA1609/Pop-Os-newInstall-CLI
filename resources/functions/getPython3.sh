@@ -1,7 +1,7 @@
 #!/bin/bash
 
-log=/installer/logs/Python.log
-errorLog=/installer/errors/Python.err
+log=/resources/logs/Python.log
+errorLog=/resources/errors/Python.err
 
 source checkExit.sh
 

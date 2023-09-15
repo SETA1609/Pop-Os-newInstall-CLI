@@ -1,10 +1,10 @@
 #!/bin/bash
 
-log=/installer/logs/Grub.log
-errorLog=/installer/errors/Grub.err
+log=/resources/logs/Grub.log
+errorLog=/resources/errors/Grub.err
 source checkExit.sh
 
-getGRUB(){
+getGrub(){
   sudo sudo apt-get install grub2 1>>"$log" 2>>"$errorLog"
   checkExitStatus $errorLog
 }

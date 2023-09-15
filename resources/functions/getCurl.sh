@@ -1,8 +1,7 @@
 #!/bin/bash
 
-log=/installer/logs/Curl.log
-errorLog=/installer/errors/Curl.err
-
+log=/resources/logs/Curl.log
+errorLog=/resources/errors/Curl.err
 source checkExit.sh
 
 getCurl(){
