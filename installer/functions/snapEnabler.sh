@@ -3,7 +3,7 @@
 log=/installer/logs/Snap.log
 source checkExit.sh
 
-enableSnap(){
+getSnap(){
   sudo apt install snapd 1>>"$log" 2>>"$errorLog"
   checkExitStatus
 }

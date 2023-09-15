@@ -14,7 +14,7 @@ getUpdate(){
 
   if grep -q "Pop" $releaseFile ||  grep -q "Ubuntu" $releaseFile
   then
-  #if Ubuntu oder pop
+  #if Ubuntu or pop
   	sudo apt update	 1>>"$log" 2>>"$errorLog"
   	checkExitStatus
     sudo apt dist-upgrade 1>>"$log" 2>>"$errorLog"
