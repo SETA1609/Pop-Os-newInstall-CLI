@@ -3,7 +3,7 @@
 log=resources/logs/Vim.log
 errorLog=resources/errors/Vim.err
 
-source ./checkExit.sh
+source ./resources/functions/checkExit.sh
 
 getNode(){
   sudo apt install vim 1>>"$log" 2>>"$errorLog"

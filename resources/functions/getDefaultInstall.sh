@@ -3,6 +3,8 @@
 log=resources/logs/Default.log
 errorLog=resources/errors/Default.err
 source ./resources/functions/checkExit.sh
+source ./resources/functions/importSources.sh
+
 
 # Define an array of function names
 functions=("getUpdate" "getSnap" "getVim" "getCurl" "getGrub" "getPython" "getJava" "getHaskell" "getNode" "getIntellij" "getDocker" "getDiscord" "getDeja" )

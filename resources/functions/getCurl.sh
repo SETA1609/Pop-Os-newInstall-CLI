@@ -2,7 +2,7 @@
 
 log=resources/logs/Curl.log
 errorLog=resources/errors/Curl.err
-source ./checkExit.sh
+source ./resources/functions/checkExit.sh
 
 
 getCurl(){

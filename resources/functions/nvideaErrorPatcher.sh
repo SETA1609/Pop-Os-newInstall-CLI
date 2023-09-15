@@ -3,7 +3,7 @@
 log=resources/logs/Nvidea.log
 errorLog=resources/errors/Nvidea.err
 
-source ./checkExit.sh
+source ./resources/functions/checkExit.sh
 # in case that syslog goes crazy in ubuntu/pop os  bug with nvidea
 patchNvidea(){
   sudo apt purge ~nnvidea 1>>"$log" 2>>"$errorLog"

@@ -2,7 +2,7 @@
 
 log=resources/logs/Haskell.log
 errorLog=resources/errors/Haskell.err
-source ./checkExit.sh
+source ./resources/functions/checkExit.sh
 
 getHaskell(){
   sudo apt install haskell-platform 1>>"$log" 2>>"$errorLog"

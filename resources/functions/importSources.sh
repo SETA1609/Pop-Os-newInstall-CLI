@@ -1,7 +1,7 @@
 #!/bin/bash
 
 getSources(){
-  srcFiles="."
+  srcFiles="./resources/functions"
   for file in "$srcFiles"/*.sh; do
 
       source "$file"

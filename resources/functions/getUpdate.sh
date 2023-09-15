@@ -4,7 +4,7 @@ releaseFile=/etc/os-release
 log=resources/logs/updater.log
 errorLog=resources/logs/updater.err
 
-source ./checkExit.sh
+source ./resources/functions/checkExit.sh
 
 getUpdate(){
   if grep -q "Arch" $releaseFile
