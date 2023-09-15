@@ -4,7 +4,11 @@ isRunning=true
 source installer/functions/importSources.sh
 getSources
 
+closeCli(){
+  isRunning=false
+}
 
 while [ "$isRunning" ]; do
-    echo probe
+    getMenu
+
 done
