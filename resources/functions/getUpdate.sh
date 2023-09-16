@@ -1,8 +1,8 @@
 #!/bin/bash
 
 releaseFile=/etc/os-release
-log=resources/logs/updater.log
-errorLog=resources/logs/updater.err
+log=./resources/logs/updater.log
+errorLog=./resources/logs/updater.err
 
 source ./resources/functions/checkExit.sh
 

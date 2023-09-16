@@ -2,6 +2,7 @@
 source ./resources/functions/getDefaultInstall.sh
 source ./resources/functions/getCustomInstall.sh
 source ./resources/functions/getInfo.sh
+source ./resources/functions/doReboot.sh
 
 isRunning=true
 
@@ -25,12 +26,12 @@ startTool(){
       getMenu
       read input
       case $input in
-      		1) getDefaultInstall;;
-      		2) getCustomInstall;;
-          3) getInformation;;
+      		1) clear; getDefaultInstall;;
+      		2) clear; getCustomInstall;;
+          3) clear; getInformation;;
           4) closeCli ;;
-          5) sudo systemctl reboot;;
-      		*) echo "Invalid input"; getInformation;;
+          5) clear; doReboot;;
+      		*) clear; echo "Invalid input"; getInformation;;
       esac
   done
 }

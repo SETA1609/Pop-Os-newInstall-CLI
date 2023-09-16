@@ -1,7 +1,7 @@
 #!/bin/bash
 
-log=resources/logs/Java.log
-errorLog=resources/errors/Java.err
+log=./resources/logs/Java.log
+errorLog=./resources/errors/Java.err
 source ./resources/functions/checkExit.sh
 
 getJava(){

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-log=resources/logs/Snap.log
-errorLog=resources/errors/Snap.err
+log=./resources/logs/Snap.log
+errorLog=./resources/errors/Snap.err
 
 
 source ./resources/functions/checkExit.sh

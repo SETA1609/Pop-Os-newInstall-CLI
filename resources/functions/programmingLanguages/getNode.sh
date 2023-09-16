@@ -1,7 +1,7 @@
 #!/bin/bash
 
-log=resources/logs/Node.log
-errorLog=resources/errors/Node.err
+log=./resources/logs/Node.log
+errorLog=./resources/errors/Node.err
 
 source ./resources/functions/checkExit.sh
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-log=resources/logs/Vim.log
-errorLog=resources/errors/Vim.err
+log=./resources/logs/Vim.log
+errorLog=./resources/errors/Vim.err
 
 source ./resources/functions/checkExit.sh
 

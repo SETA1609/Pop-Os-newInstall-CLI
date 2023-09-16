@@ -1,7 +1,7 @@
 #!/bin/bash
 
-log=resources/logs/Grub.log
-errorLog=resources/errors/Grub.err
+log=./resources/logs/Grub.log
+errorLog=./resources/errors/Grub.err
 source ./resources/functions/checkExit.sh
 
 getGrub(){

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-log=resources/logs/Nvidea.log
-errorLog=resources/errors/Nvidea.err
+log=./resources/logs/Nvidea.log
+errorLog=./resources/errors/Nvidea.err
 
 source ./resources/functions/checkExit.sh
 # in case that syslog goes crazy in ubuntu/pop os  bug with nvidea

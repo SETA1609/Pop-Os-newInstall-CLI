@@ -1,9 +1,21 @@
 #!/bin/bash
 
-log=resources/logs/Default.log
-errorLog=resources/errors/Default.err
+log=./resources/logs/Default.log
+errorLog=./resources/errors/Default.err
 source ./resources/functions/checkExit.sh
-source ./resources/functions/importSources.sh
+source ./resources/functions/getUpdate.sh
+source ./resources/functions/getSnap.sh
+source ./resources/functions/apps/getVim.sh
+source ./resources/functions/tools/getCurl.sh
+source ./resources/functions/tools/getGrub2.sh
+source ./resources/functions/programmingLanguages/getPython3.sh
+source ./resources/functions/programmingLanguages/getJava.sh
+source ./resources/functions/programmingLanguages/getHaskell.sh
+source ./resources/functions/programmingLanguages/getNode.sh
+source ./resources/functions/apps/getDiscord.sh
+source ./resources/functions/apps/getIntellij.sh
+source ./resources/functions/tools/getDocker.sh
+source ./resources/functions/apps/getDeja.sh
 
 
 # Define an array of function names

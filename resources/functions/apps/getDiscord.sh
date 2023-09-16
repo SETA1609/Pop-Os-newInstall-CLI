@@ -1,7 +1,7 @@
 #!/bin/bash
 
-log=resources/logs/Discord.log
-errorLog=resources/errors/Discord.err
+log=./resources/logs/Discord.log
+errorLog=./resources/errors/Discord.err
 source ./resources/functions/checkExit.sh
 
 getDiscord(){
