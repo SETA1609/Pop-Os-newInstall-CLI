@@ -11,7 +11,7 @@ doReboot(){
   read answer
 
   case $answer in
-       		y) sudo systemctl reboot;;
+       		y) sudo systemctl reboot 1>>"$log" 2>>"$errorLog";;
        		n) clear; return ;;
        		*) clear; echo "Invalid input"; echo "Please enter y or n. "; doReboot;;
        esac
