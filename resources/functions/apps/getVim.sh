@@ -8,4 +8,6 @@ source ./resources/functions/checkExit.sh
 getNode(){
   sudo apt install vim 1>>"$log" 2>>"$errorLog"
   checkExitStatus $errorLog
+    echo "Vim was installed"
+
 }

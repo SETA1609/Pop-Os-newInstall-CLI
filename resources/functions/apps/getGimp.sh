@@ -7,5 +7,6 @@ source ./resources/functions/checkExit.sh
 getGimp(){
  sudo apt install gimp 1>>"$log" 2>>"$errorLog"
  checkExitStatus $errorLog
+  echo "Gimp was installed"
 
 }

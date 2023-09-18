@@ -26,4 +26,6 @@ getDocker(){
 
   sudo apt-get update && sudo apt-get install docker-ce docker-ce-cli containerd.io 1>>"$log" 2>>"$errorLog"
   checkExitStatus $errorLog
+    echo "Docker was installed"
+
 }

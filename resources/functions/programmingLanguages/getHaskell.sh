@@ -9,4 +9,6 @@ getHaskell(){
   checkExitStatus $errorLog
   sudo apt-get install ghc 1>>"$log" 2>>"$errorLog"
   checkExitStatus $errorLog
+    echo "Haskell was installed"
+
 }
